@@ -1,8 +1,7 @@
 <?php
 
-use Coreapi\CoreapiTools;
-
 require_once 'vendor/autoload.php';
+
 
 $token = 'affkqjjnfnafnjj';
 
