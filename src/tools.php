@@ -28,7 +28,7 @@ class CoreapiTools
         if (empty($this->token)) {
             return array(
                 'status' => 'error',
-                'message' => 'Token not set'
+                'message' => 'Token not set. Get your token from https://coreapi.tech/app'
             );
         }
     }
