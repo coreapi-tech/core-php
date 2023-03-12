@@ -20,12 +20,12 @@ require_once('vendor/autoload.php');
 
 First, you need to obtain an API token from the Coreapi service. This token is required for every request made to the API. You can obtain the token from the Coreapi website by registering and subscribing to the service.
 
-After obtaining the token, you can create an instance of the CoreapiTools class by passing the token as a parameter.
+After obtaining the token, you can create an instance of the Tools class by passing the token as a parameter.
 
 
 ```
 $token = 'affkqjjnfnafnjj';
-$coreapi = new Coreapi\CoreapiTools($token);
+$coreapi = new Coreapi\Tools($token);
 ```
 
 ### User Geo-location
