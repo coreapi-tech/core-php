@@ -1,10 +1,18 @@
 # README
 
 This is a PHP code that uses the CoreapiTools library to interact with the Coreapi API service. The Coreapi service provides various functionalities related to user identification, authentication, and validation.
+
 ## Installation
-1. Clone the repository
-2. Install the dependencies by running composer install
-3. Include the CoreapiTools class in your PHP code using require_once 'vendor/autoload.php';
+
+```
+composer require coreapi-tech/core-php
+```
+
+Load it via Autoload
+
+```
+require_once('vendor/autoload.php');
+```
 
 ## Usage
 
@@ -40,6 +48,9 @@ You can use the `get_email_info('email')` method to verify if an email address i
 ```
 $emailInfo = $coreapi->get_email_info('email');
 ```
+
+
+
 
 The email parameter is the email address you want to verify. The $emailInfo variable will contain an array of data related to the email, including its validity status.
 
