@@ -2,7 +2,7 @@
 
 namespace Coreapi;
 
-class CoreapiTools
+class Tools
 {
 
     private $token;

@@ -5,8 +5,11 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "coreapi\\CoreapiTools\\": "src/"
-        }
+            "Coreapi\\Tools\\": "src/"
+        },
+        "files": [
+            "src/tools.php"
+        ]
     },
     "require": {
       "php": ">=7.1.0",

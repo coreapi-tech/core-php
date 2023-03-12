@@ -2,10 +2,9 @@
 
 require_once 'vendor/autoload.php';
 
-
 $token = 'affkqjjnfnafnjj';
 
-$coreapi = new Coreapi\CoreapiTools($token);
+$coreapi = new Coreapi\Tools($token);
 
 $ip = 'ip';
 
